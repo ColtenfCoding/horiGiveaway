@@ -6,7 +6,7 @@ module.exports = (client) => {
   const activities = [`Giveaways in ${client.guilds.cache.size} guilds`,"g!help",`over ${client.users.cache.size} users!`];
   setInterval(() => {
     let activity = activities[Math.floor(Math.random() * activities.length)];
-    client.user.setActivity("thuy to die", { type: "WATCHING" });
+    client.user.setActivity("GIVEAWAYS | CAPTAIN | JOIN THE SUPPORT SERVER!", { type: "STREAMING" });
   }, 20000);
 
 };
